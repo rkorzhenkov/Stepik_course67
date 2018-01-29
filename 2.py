@@ -1,3 +1,5 @@
+//Калькулятор
+
 A = float (input())
 B = float (input())
 C = str (input())
