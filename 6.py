@@ -1,16 +1,10 @@
 
 """ Когда сумма введенных чисел станет 0,вывести результат суммы квадратов этих чисел """
-
-a1 = int (input())
-s= a1
-s2 = 0+abs(a1**2)
-
-
-while s!=0:
+a1 = int(input())
+sum_squares = a1
+sum_squares2 = 0 + abs(a1**2)
+while sum_squares != 0:
     a1 = int(input())
-    s = s + a1
-    
-    s2 = s2+abs(a1)**2
-    if s==0:
-        break
-print(s2)
+    sum_squares = sum_squares + a1
+    sum_squares2 = sum_squares2 + abs(a1)**2
+print(sum_squares2)
